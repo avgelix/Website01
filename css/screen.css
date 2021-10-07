@@ -9,38 +9,69 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-font-size: 1.125em; /* 18px/ 16(default for all browsers)= 1.125em */
-line-height: 20px;
-background-color: rgb(55, 50, 200);
-color: rgb(255, 200, 200);
+font-size: 16px; /* 18px/ 16(default for all browsers)= 1.125em */
+line-height: 1.25em; /* 20px/16= 1.25*/
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color: rgb(130, 12, 2);
+color: rgb(255, 255, 255);
+padding: 1.25em; /* 20px/16= 1.25*/
+}
+
+h1,
+h2,
+ul,
+p,
+article {
+  padding-bottom: 1.25em; /* 20px/16= 1.25*/
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(237, 168, 149);
 }
 
 a {
-  color: rgb(2,2,3);
-  font-size: 12px
+  color: rgb(222, 63, 36);
+  font-size: 12px;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 22px
+  font-size:1.758em; /* 28.125px/16= 1.758*/
+  line-height: 1,875em; /*30/16= 1,875*/
 }
 
-h2{
+h2 {
   font-variant: small-caps;
   font-weight: bolder;
-  font-size: 18px
+  font-size: 1.406em; /*22./16= 1.406*/
+  padding-top: 1.25em;
 }
 
 h3 {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 1em;
+}
+
+h4 {
   font-weight: bolder;
-  font-size: 14px
+  font-size: 14px;
+  padding-bottom: 0.3em;
 }
 
-body {
-  font-size: 12px
-}
-
-footer {
+footer,
+.footer {
   font-style: italic;
-  font-size: 9px
+  font-size:0.72em; /* 11.52px/16= 0.72*/
+}
+
+.poem {
+
 }
